@@ -66,3 +66,10 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+https://openweathermap.org/current
+Call for several city IDs
+Parameters:
+id City ID
+Examples of API calls:
+http://api.openweathermap.org/data/2.5/group?id=524901,703448,2643743&units=metric
