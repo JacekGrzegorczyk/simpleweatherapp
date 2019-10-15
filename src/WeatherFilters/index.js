@@ -5,11 +5,11 @@ class WeatherFilters extends Component {
 
  render() {
   return (
-   <div className="wrapper">
+   <div className="filterWrapper">
     <span className="filterLabel"> Check the weather</span>
-    <div className="filterWrapper">
-     <input type="search"></input>
-     <div class="btn btn-primary"> Search for Cities </div>
+    <div className="searchWrapper">
+     <input className="search" type="search"></input>
+     <div className="btn btn-primary"> Search for Cities </div>
     </div>
    </div>
   )

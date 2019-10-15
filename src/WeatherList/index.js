@@ -12,7 +12,17 @@ class WeatherList extends Component {
   return (
    <div className="container">
     <WeatherFilters />
-    <WeatherListItem data={fakeData} />
+    <div className="wrapper">
+     <div className="single-wrapper">
+      <WeatherListItem data={fakeData} />
+     </div>
+     <div className="single-wrapper">
+      <WeatherListItem data={fakeData} />
+     </div>
+     <div className="single-wrapper">
+      <WeatherListItem data={fakeData} />
+     </div>
+    </div>
    </div>
   )
  }
